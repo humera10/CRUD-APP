@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Curd Application</title>
+    <link rel="stylesheet" href="indexcrud.css">
+</head>
+
+
+<body>
+<form action="">
+    <div class="container">
+        <div class="title">
+            <h2>Create CURD Application</h2>  
+        </div>
+
+        <div class="group">
+
+            <div class="details">
+                <label class="lab">Date</label>
+                <input type="date"class="form-control" id="date" placeholder="Enter date" name="date" required>
+            </div>
+
+            <div class="details">
+                <label class="lab">Name</label>
+                <input type="text"class="form-control" id="name" placeholder="Enter Name" name="name" required>
+            </div>
+
+            <div class="details">
+                <label class="lab">Employee ID</label>
+                <input type="text"class="form-control" id="empid" placeholder="Enter ID" name="id" required>
+            </div>
+
+            <div class="details">
+                <label class="lab">Department</label>
+                <input type="text"class="form-control" id="dept" placeholder="Enter Department" name="department" required>
+            </div>
+
+            <div class="details">
+                <label class="lab">Password</label>
+                <input type="password"class="form-control" id="password" placeholder="Enter password" name="password" required>
+            </div>
+
+          <!-- <div class="details">
+                <label class="lab">Gender</label>
+                <select class="option">
+                    <option>select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div> -->
+
+
+            <div class="group">
+                <label class="attendance">Attendance</label>
+                <input type="radio" class="radio" id="attendance" name="attendance" value="P" required>Present
+                <input type="radio" class="radio" id="attendance" name="attendance" value="A" required>Absent
+                <!-- <p id="output"></p> -->
+            </div>
+
+            <!--<div class="details">
+                <label class="lab">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Agree with Terms and Conditions</p>
+            </div>      -->       
+            <button type="submit" value="submit" class="normal" id="btn">Submit</button>
+
+        </div>
+    </div>
+</form>
+
+<section class="tab">
+    <div class="tableBox" id="tableData"> <!--data => Data-->
+        <table>
+            <tr>
+                <!--  <th>Sr. No</th> -->
+                 <th>Date</th>
+                 <th>Name</th>
+                 <th>Employee Id</th>
+                 <th>Department</th>
+                 <th>password</th>
+                 <th>Attendance</th>
+                <th>Action</th>
+            </tr>
+            <tbody id="crudTable"> <!--curd => crud-->
+
+            </tbody>
+
+            <!--<tr>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td> 
+             <td><button class="normal">Eidit</button><button class="normal1">Delete</button></td>
+            </tr>-->
+
+
+        </table>
+    </div>
+</section>
+
+
+</body>
+<script src="try.js"></script>
+
+<!-- <script src="indexcrud.js"></script> -->
+ 
+ <!--- <script src="crudfinal.js"></script> -->
+<!--<script src="new1.js"></script>  -->
+<!-- <script src="new2.js"></script> -->
+</html>
