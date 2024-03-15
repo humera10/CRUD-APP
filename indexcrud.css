@@ -187,13 +187,13 @@ body{
 
 /* Media Query */
 
-@media (min-width: 300px ) and (max-width: 515px) {
+/* @media (min-width: 300px ) and (max-width: 515px) {
 
     .details{
 
         margin-bottom: 20px;
         display: block;
-        /* align-items: center; */
+  
     }
 
     .form-control{
@@ -214,4 +214,4 @@ body{
 
    
     
-}
+} */
